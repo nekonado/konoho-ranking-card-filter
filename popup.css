@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+*::selection {
+  background-color: #0066ff;
+  color: #ffffff;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+div.interface {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1rem;
+
+  input {
+    height: 35px;
+  }
+
+  button {
+    height: 35px;
+    background-color: #0066ff;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+div.annotation {
+  font-size: 0.8rem;
+  color: #666666;
+}
